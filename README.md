@@ -91,7 +91,7 @@ Install EPEL Repository using the following yum command.
 ### Step 3 - Install and configure Pacemaker, Corosync, and Pcsd
 
 - Pacemaker, Corosync, and Pcsd are available in the default system repository. So they all can be installed from the CentOS repository using the following yum command.
-	````
+    ````
     # yum -y install corosync pacemaker pcs
     ```
 
