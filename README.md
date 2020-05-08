@@ -89,7 +89,7 @@ Install EPEL Repository using the following yum command.
 
 
 ### Step 3 - Install and configure Pacemaker, Corosync, and Pcsd
-- document pcs: [configuring_the_red_hat_high_availability_add-on_with_pacemaker](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/configuring_the_red_hat_high_availability_add-on_with_pacemaker/resourcemodify) 
+- document pcs: [configuring_the_red_hat_high_availability_add-on_with_pacemaker](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/configuring_the_red_hat_high_availability_add-on_with_pacemaker) 
 - Pacemaker, Corosync, and Pcsd are available in the default system repository. So they all can be installed from the CentOS repository using the following yum command.
     ````
     # yum -y install corosync pacemaker pcs
