@@ -55,7 +55,7 @@ The first step we must do is to edit the host file on each server in order to ma
     ```
     # vim /etc/hosts
     ```
-	```
+    ```
     10.0.15.10      web01
     10.0.15.11      web02
     10.0.15.12      web03
@@ -97,7 +97,7 @@ Install EPEL Repository using the following yum command.
 
 - After the installation has been completed, enable all services to launch automatically at system boot using the systemctl commands below.
 
-	```
+    ```
     # systemctl enable pcsd
     # systemctl enable corosync
     # systemctl enable pacemaker
@@ -105,7 +105,7 @@ Install EPEL Repository using the following yum command.
 
 - Now start the pcsd Pacemaker command line interface on all servers.
 
-	```
+    ```
     # systemctl start pcsd
     ```
 
@@ -217,7 +217,7 @@ Install EPEL Repository using the following yum command.
 
 - Set the 'virtual_ip' and 'webserver' resources always on same node servers.
 
-	```
+    ```
     # pcs constraint order virtual_ip then webserver
     ```
 
