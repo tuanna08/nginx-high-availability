@@ -1,6 +1,8 @@
 # nginx-high-availability
 How to Set up Nginx High Availability with Pacemaker and Corosync on CentOS 7
 
+[document](https://www.howtoforge.com/tutorial/how-to-set-up-nginx-high-availability-with-pacemaker-corosync-on-centos-7/)
+
 ![HA](./images/NGINX-features_High-Availability.png)
 
 ```
