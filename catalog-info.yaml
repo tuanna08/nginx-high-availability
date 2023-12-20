@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx-high-availability
+  annotations:
+    github.com/project-slug: tuanna08/nginx-high-availability
+spec:
+  type: other
+  lifecycle: unknown
+  owner: tuanna08
