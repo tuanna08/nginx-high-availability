@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: tuanna08/nginx-high-availability
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: tuanna08
